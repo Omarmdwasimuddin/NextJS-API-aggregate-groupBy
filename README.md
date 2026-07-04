@@ -42,3 +42,13 @@ export async function GET(request: NextRequest) {
 }
 ```
 ---
+
+### heading...
+![](https://imgur.com/GcmdD8E.png)
+
+```bash
+const readData = await prisma.employee.groupBy({
+            by: ['city'],
+        });
+```
+---
