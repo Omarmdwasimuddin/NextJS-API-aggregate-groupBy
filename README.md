@@ -1,6 +1,6 @@
 ## NextJS API---> Aggregate & GroupBy
 
-### heading...
+### Prisma aggregate() Method
 ![](https://imgur.com/cpc9gg2.png)
 
 ```bash
@@ -43,7 +43,7 @@ export async function GET(request: NextRequest) {
 ```
 ---
 
-### heading...
+### Prisma groupBy() Method
 ![](https://imgur.com/GcmdD8E.png)
 
 ```bash
@@ -53,7 +53,7 @@ const readData = await prisma.employee.groupBy({
 ```
 ---
 
-### heading...
+### Prisma groupBy() with Count
 ![](https://imgur.com/7s5lPny.png)
 
 ```bash
@@ -66,7 +66,7 @@ const readData = await prisma.employee.groupBy({
 ```
 ---
 
-### heading...
+### Prisma groupBy() with Sum
 ![](https://imgur.com/IWyKhHq.png)
 
 ```bash
@@ -79,7 +79,7 @@ const readData = await prisma.employee.groupBy({
 ```
 ---
 
-### heading...
+### Prisma groupBy() with Having Clause
 ![](https://imgur.com/wA3VEGo.png)
 
 ```bash
