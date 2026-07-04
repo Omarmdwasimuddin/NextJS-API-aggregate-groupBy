@@ -65,3 +65,16 @@ const readData = await prisma.employee.groupBy({
         });
 ```
 ---
+
+### heading...
+![](https://imgur.com/IWyKhHq.png)
+
+```bash
+const readData = await prisma.employee.groupBy({
+            by: ['city'],
+            _sum: {
+                salary: true,
+            }
+        });
+```
+---
